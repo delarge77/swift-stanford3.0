@@ -12,6 +12,7 @@
 		8756860B1E56572500BE5B01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875686091E56572500BE5B01 /* Main.storyboard */; };
 		8756860D1E56572500BE5B01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8756860C1E56572500BE5B01 /* Assets.xcassets */; };
 		875686101E56572500BE5B01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8756860E1E56572500BE5B01 /* LaunchScreen.storyboard */; };
+		875686181E57042500BE5B01 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875686171E57042500BE5B01 /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8756860C1E56572500BE5B01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8756860F1E56572500BE5B01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		875686111E56572500BE5B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		875686171E57042500BE5B01 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		875686041E56572500BE5B01 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				875686051E56572500BE5B01 /* AppDelegate.swift */,
 				875686071E56572500BE5B01 /* ViewController.swift */,
 				875686091E56572500BE5B01 /* Main.storyboard */,
+				875686171E57042500BE5B01 /* CalculatorBrain.swift */,
+				875686191E57045600BE5B01 /* Supporting Files */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		875686191E57045600BE5B01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				875686051E56572500BE5B01 /* AppDelegate.swift */,
 				8756860C1E56572500BE5B01 /* Assets.xcassets */,
 				8756860E1E56572500BE5B01 /* LaunchScreen.storyboard */,
 				875686111E56572500BE5B01 /* Info.plist */,
 			);
-			path = Calculator;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				875686181E57042500BE5B01 /* CalculatorBrain.swift in Sources */,
 				875686081E56572500BE5B01 /* ViewController.swift in Sources */,
 				875686061E56572500BE5B01 /* AppDelegate.swift in Sources */,
 			);
@@ -302,6 +314,7 @@
 				875686161E56572500BE5B01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
