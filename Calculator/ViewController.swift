@@ -58,5 +58,12 @@ class ViewController: UIViewController {
             displayValue = result
         }
     }
+    
+    @IBAction func clearDisplay(_ sender: UIButton) {
+        
+        display.text = "0";
+        userInTheMiddleOfTypingDigit = false;
+    }
+    
 }
 
